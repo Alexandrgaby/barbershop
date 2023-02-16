@@ -36,8 +36,12 @@ html {
   color: #ffffff;
   text-decoration: none;
 }
+.navigation-list,
+.right-navigation-list {
+  display: flex;
+}
 
-.online-booking-button {
+.online-booking-button.online-booking-button {
   box-sizing: border-box;
   border: 1px solid #ff6c00;
   border-radius: 25px;
